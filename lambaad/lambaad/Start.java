@@ -33,6 +33,11 @@ public class Start {
 	c6.icingFlavour = "Keep Practicing";
 	c6.numberOfCandles = 12;
 	c6.message = "Almost there";
+		
+	Cake c7 = new Cake();
+	c7.icingFlavour = "lucky"
+	c7.numberOfCandles = 7;
+	c7.message = "Les go";
 
 	System.out.println(c1.describeCake());
 
