@@ -13,9 +13,16 @@ public class Start {
 	c2.icingFlavour = "Vanilla";
 	c2.numberOfCandles = 50;
 	c2.message = "Congratulations";
+		
+	Cake c3 = new Cake();
+	c3.icingFlavour = "Rainbow";
+	c3.numberOfCandles = 10;
+	c3.message = "Get well soon!";
 
 	System.out.println(c1.describeCake());
 
 	System.out.println(c2.describeCake());
+		
+	System.out.println(c3.describeCake());
 	   }
 	}
