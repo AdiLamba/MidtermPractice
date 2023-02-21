@@ -27,7 +27,12 @@ public class Start {
 	Cake c5 =  new Cake();
 	c5.icingFlavour = "Mocha-Chocolatah";
 	c5.numberOfCandles = 4;
-	c5.message = "Real Lady Marmalade"
+	c5.message = "Real Lady Marmalade";
+	
+	Cake c6 = new Cake();
+	c6.icingFlavour = "Keep Practicing";
+	c6.numberOfCandles = 12;
+	c6.message = "Almost there";
 
 	System.out.println(c1.describeCake());
 
