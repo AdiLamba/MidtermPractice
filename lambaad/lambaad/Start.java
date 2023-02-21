@@ -18,11 +18,20 @@ public class Start {
 	c3.icingFlavour = "Rainbow";
 	c3.numberOfCandles = 10;
 	c3.message = "Get well soon!";
+	
+	Cake c4 = new Cake();
+	c4.icingFlavour = "Plastic";
+	c4.numberOfCandles = 0;
+	c4.message = "Symtex";
 
 	System.out.println(c1.describeCake());
 
 	System.out.println(c2.describeCake());
 		
 	System.out.println(c3.describeCake());
+	
+	System.out.println(c4.describeCake());
+	
+	
 	   }
 	}
