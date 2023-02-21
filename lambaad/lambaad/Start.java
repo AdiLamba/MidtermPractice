@@ -23,6 +23,11 @@ public class Start {
 	c4.icingFlavour = "Plastic";
 	c4.numberOfCandles = 0;
 	c4.message = "Symtex";
+		
+	Cake c5 =  new Cake();
+	c5.icingFlavour = "Mocha-Chocolatah";
+	c5.numberOfCandles = 4;
+	c5.message = "Real Lady Marmalade"
 
 	System.out.println(c1.describeCake());
 
@@ -32,6 +37,7 @@ public class Start {
 	
 	System.out.println(c4.describeCake());
 	
+	System.out.println(c5.describeCake());
 	
 	   }
 	}
