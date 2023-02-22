@@ -18,6 +18,11 @@ public class Start {
 	c3.icingFlavour = "Just Kidding";
 	c3.numberOfCandles = 1;
 	c3.message = "Here is some cake...";
+	
+	Cake c4 = new Cake();
+	c4.icingFlavour = "Just Kidding";
+	c4.numberOfCandles = 1;
+	c4.message = "Here is some cake...";
 
 	System.out.println(c1.describeCake());
 	
