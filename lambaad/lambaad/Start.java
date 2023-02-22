@@ -10,34 +10,27 @@ public class Start {
 	c1.message = "Happy Birthday";
 
 	Cake c2 = new Cake();
-	c2.icingFlavour = "Vanilla";
-	c2.numberOfCandles = 50;
-	c2.message = "Congratulations";
+	c2.icingFlavour = "I'm Sorry...";
+	c2.numberOfCandles = 0;
+	c2.message = "The cake was a lie";
 		
 	Cake c3 = new Cake();
-	c3.icingFlavour = "Rainbow";
-	c3.numberOfCandles = 10;
-	c3.message = "Get well soon!";
+	c3.icingFlavour = "Just Kidding";
+	c3.numberOfCandles = 1;
+	c3.message = "Here is some cake...";
 	
 	Cake c4 = new Cake();
-	c4.icingFlavour = "Plastic";
-	c4.numberOfCandles = 0;
-	c4.message = "Symtex";
-		
-	Cake c5 =  new Cake();
-	c5.icingFlavour = "Mocha-Chocolatah";
-	c5.numberOfCandles = 4;
-	c5.message = "Real Lady Marmalade"
+	c4.icingFlavour = "Just Kidding";
+	c4.numberOfCandles = 1;
+	c4.message = "Here is some cake...";
 
 	System.out.println(c1.describeCake());
-
+	
 	System.out.println(c2.describeCake());
 		
 	System.out.println(c3.describeCake());
+
 	
-	System.out.println(c4.describeCake());
-	
-	System.out.println(c5.describeCake());
 	
 	   }
 	}
