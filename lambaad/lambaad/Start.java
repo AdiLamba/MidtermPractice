@@ -13,12 +13,12 @@ public class Start {
 	c2.icingFlavour = "I'm Sorry...";
 	c2.numberOfCandles = 0;
 	c2.message = "The cake was a lie";
-	/*	
+	
 	Cake c3 = new Cake();
 	c3.icingFlavour = "Just Kidding";
 	c3.numberOfCandles = 1;
 	c3.message = "Here is some cake...";
-	*/
+	
 
 	System.out.println(c1.describeCake());
 	
